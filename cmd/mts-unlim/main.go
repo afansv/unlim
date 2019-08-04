@@ -11,7 +11,11 @@ func main() {
 	switch runtime.GOOS {
 	case "windows":
 		if err := win.SetTTL(); err != nil {
-			panic("Error editing the Windows registry. Please make sure that the program is running as administrator.")
+			panic(err)
+		}
+
+		if err := win.DisableIPv6(); err != nil {
+			panic(err)
 		}
 		fmt.Println("OK!")
 	default:
