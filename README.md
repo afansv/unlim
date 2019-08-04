@@ -5,12 +5,12 @@ A simple program that allows you to use unlimited MTS Internet without additiona
 
 ## Getting Started
 
-### Installing
+### 1. Install
 ```
 go get -u github.com/afansv/mts-unlim/...
 ```
 
-### Running
+### 2. Run
 
 **Important**: Run as administrator
 
@@ -18,7 +18,7 @@ go get -u github.com/afansv/mts-unlim/...
 mts-unlim
 ```
 
-**And then restart your computer**
+### 3. Restart your computer
 
 ## License
 
