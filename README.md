@@ -7,7 +7,7 @@ A simple program that allows you to use unlimited MTS Internet without additiona
 
 ### Installing
 ```
-go get github.com/afansv/mts-unlim/...
+go get -u github.com/afansv/mts-unlim/...
 ```
 
 ### Running
@@ -17,6 +17,8 @@ go get github.com/afansv/mts-unlim/...
 ```
 mts-unlim
 ```
+
+**And then restart your computer**
 
 ## License
 
