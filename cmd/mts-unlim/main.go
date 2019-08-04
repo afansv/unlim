@@ -11,9 +11,10 @@ func main() {
 	switch runtime.GOOS {
 	case "windows":
 		if err := win.SetTTL(); err != nil {
-			fmt.Println("Error editing the Windows registry. Please make sure that the program is running as administrator.")
+			panic("Error editing the Windows registry. Please make sure that the program is running as administrator.")
 		}
+		fmt.Println("OK!")
 	default:
-		fmt.Println("Windows only yet")
+		panic("Windows only yet")
 	}
 }
