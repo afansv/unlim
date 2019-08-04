@@ -17,7 +17,7 @@ func main() {
 		if err := win.DisableIPv6(); err != nil {
 			panic(err)
 		}
-		fmt.Println("OK!")
+		fmt.Println("OK! Now restart your computer")
 	default:
 		panic("Windows only yet")
 	}
