@@ -12,6 +12,8 @@ go get github.com/afansv/mts-unlim/...
 
 ### Running
 
+**Important**: Run as administrator
+
 ```
 mts-unlim
 ```
