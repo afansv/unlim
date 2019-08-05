@@ -1,13 +1,13 @@
 # Unlim
 Unlim allows you to use unlimited mobile internet without additional payment for tethering (Windows only yet).
 
-![Project Logo](https://user-images.githubusercontent.com/9019326/62428529-8414f500-b70b-11e9-8962-14641afda6b8.gif)
+![Unlim Logo](https://user-images.githubusercontent.com/9019326/62445104-2236a880-b768-11e9-8834-15b96140cba8.png)
 
 ## Getting Started
 
 ### 1. Install
 ```
-go get -u github.com/afansv/mts-unlim/...
+go get -u github.com/afansv/unlim/...
 ```
 
 ### 2. Run
@@ -15,7 +15,7 @@ go get -u github.com/afansv/mts-unlim/...
 **Important**: Run as administrator
 
 ```
-mts-unlim
+unlim
 ```
 
 ### 3. Restart your computer

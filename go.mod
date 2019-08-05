@@ -1,4 +1,4 @@
-module github.com/afansv/mts-unlim
+module github.com/afansv/unlim
 
 go 1.12
 
