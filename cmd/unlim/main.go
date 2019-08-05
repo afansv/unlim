@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/afansv/mts-unlim/pkg/win"
+	"github.com/afansv/unlim/pkg/win"
 )
 
 func main() {

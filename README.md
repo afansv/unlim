@@ -1,5 +1,5 @@
-# MTS Unlim
-A simple program that allows you to use unlimited MTS Internet without additional payment for tethering (Windows only yet).
+# Unlim
+Unlim allows you to use unlimited mobile internet without additional payment for tethering (Windows only yet).
 
 ![Project Logo](https://user-images.githubusercontent.com/9019326/62428529-8414f500-b70b-11e9-8962-14641afda6b8.gif)
 
