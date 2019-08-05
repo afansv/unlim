@@ -16,8 +16,22 @@ var (
 	disabledComponents uint32 = 255 // IPv6 disabled
 )
 
-func SetTTL() error {
+func SetIPv4TTL() error {
 	k, _, err := registry.CreateKey(registry.LOCAL_MACHINE, ipv4ParametersPath, registry.ALL_ACCESS)
+	if err != nil {
+		return err
+	}
+
+	err = k.SetDWordValue(defaultTTLKey, defaultTTL)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func SetIPv6TTL() error {
+	k, _, err := registry.CreateKey(registry.LOCAL_MACHINE, ipv6ParametersPath, registry.ALL_ACCESS)
 	if err != nil {
 		return err
 	}
