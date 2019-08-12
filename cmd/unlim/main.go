@@ -10,7 +10,7 @@ import (
 func main() {
 	switch runtime.GOOS {
 	case "windows":
-		if err := win.SetTTL(); err != nil {
+		if err := win.SetIPv4TTL(); err != nil {
 			panic(err)
 		}
 
